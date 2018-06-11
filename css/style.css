@@ -305,6 +305,17 @@ body {
 #header-inner {
   position: relative;
   overflow: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: end;
+  -moz-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
 }
 #banner {
   position: absolute;
@@ -1054,6 +1065,34 @@ a.article-title:hover {
 #footer-info {
   line-height: 1.6em;
   font-size: 0.85em;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+#footer-info .info-list {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+#footer-info .info-list .title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+#footer-info .info-list li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 1.6;
+}
+#footer-info .info-list li a {
+  text-decoration: none;
+  color: #8f9090;
 }
 .article-entry pre,
 .article-entry .highlight {
