@@ -174,7 +174,7 @@ body {
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   z-index: 1;
-  background: #eee;
+  background-color: #2d2d2d;
 }
 .mobile-nav-on #wrap {
   left: 280px;
@@ -197,7 +197,6 @@ body {
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
-  border: 1px solid #ddd;
   border-radius: 3px;
 }
 .article-entry h1 {
@@ -1039,7 +1038,6 @@ a.article-title:hover {
 #footer {
   background: #262a30;
   padding: 50px 0;
-  border-top: 1px solid #ddd;
   color: #999;
 }
 #footer a {
